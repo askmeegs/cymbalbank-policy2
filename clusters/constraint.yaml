@@ -4,4 +4,4 @@ metadata:
   name: limit-two-containers
 spec:
   parameters:
-    allowedNumContainers: 2
+    allowedNumContainers: 3
