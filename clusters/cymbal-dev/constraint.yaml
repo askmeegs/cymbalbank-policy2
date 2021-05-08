@@ -1,7 +1,7 @@
-# Blocks the creation of Ingress and Service type=LoadBalancer resources 
-apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sNoExternalServices
-metadata:
-  name: dev-no-ext-services
-spec:
-  internalCIDRs: []
+# # Blocks the creation of Ingress and Service type=LoadBalancer resources 
+# apiVersion: constraints.gatekeeper.sh/v1beta1
+# kind: K8sNoExternalServices
+# metadata:
+#   name: dev-no-ext-services
+# spec:
+#   internalCIDRs: []
